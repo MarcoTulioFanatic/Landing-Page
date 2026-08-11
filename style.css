@@ -1,0 +1,284 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1c2b45;
+  padding: 15px 30px;
+}
+
+.header .logo {
+  height: 35px;
+}
+
+.header nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.bloco1 {
+  min-height: 100vh;
+}
+
+.hero {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url('telhado-bg.png');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.hero-box {
+  background-color: rgba(60, 65, 75, 0.55);
+  border-radius: 10px;
+  padding: 25px 30px;
+  max-width: 400px;
+  color: white;
+}
+
+.hero-box .tag {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.hero-box h1 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.hero-box p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.btn-laranja {
+  display: inline-block;
+  background-color: #f07830;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 12px 30px;
+  border-radius: 30px;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.bloco2 {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #1c2b45, #f07830);
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sobre-imagem img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 10px;
+  display: block;
+}
+
+.sobre-texto {
+  color: white;
+  text-align: right;
+  font-size: 20px;
+  font-weight: bold;
+  max-width: 250px;
+  margin: -80px 0 30px auto;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.card {
+  background-color: #f07830;
+  color: white;
+  border-radius: 10px;
+  padding: 15px;
+  width: 150px;
+  text-align: center;
+}
+
+.card h3 {
+  font-size: 13px;
+  margin-bottom: 8px;
+}
+
+.card p {
+  font-size: 11px;
+  margin-bottom: 12px;
+}
+
+.btn-saber {
+  background-color: #1c2b45;
+  color: white;
+  text-decoration: none;
+  font-size: 11px;
+  padding: 6px 12px;
+  border-radius: 15px;
+}
+
+.porque {
+  text-align: center;
+  padding: 50px 20px 20px 20px;
+}
+
+.porque h2 {
+  color: white;
+  margin-bottom: 30px;
+}
+
+.icones {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+.icone {
+  width: 130px;
+}
+
+.legenda {
+  background-color: #d9d9d9;
+  color: #1c2b45;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 10px 8px;
+  border-radius: 6px;
+}
+
+.bloco3 {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.trabalhos {
+  background-color: #1c2b45;
+  padding: 60px 20px;
+  text-align: center;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.trabalhos h2 {
+  color: white;
+  margin-bottom: 25px;
+}
+
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+.galeria img {
+  width: 150px;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.cta-final {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1c2b45;
+  border-top: 1px solid #2f4066;
+  padding: 25px 30px;
+}
+
+.cta-final h2 {
+  color: white;
+  font-size: 20px;
+}
+
+.footer {
+  background-color: #0d1524;
+  color: white;
+  padding: 30px 30px;
+  text-align: center;
+}
+
+.footer-social p {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.redes {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.redes a {
+  color: white;
+  text-decoration: none;
+  font-size: 13px;
+  border: 1px solid white;
+  padding: 6px 12px;
+  border-radius: 15px;
+}
+
+.footer-info p {
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+
+.logo-footer {
+  height: 30px;
+  margin: 20px 0;
+}
+
+.direitos {
+  font-size: 12px;
+  color: #aaa;
+  margin-top: 10px;
+}
+
+@media (min-width: 700px) {
+  .sobre {
+    display: block;
+  }
+
+  .sobre-texto {
+    margin: 30px 0 0 0;
+    text-align: left;
+  }
+
+  .cta-final {
+    flex-direction: row;
+  }
+}
